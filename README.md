@@ -1,7 +1,7 @@
 # Description
 This Project gives possibility to search products on the page and click on the button related to the product.
 Search config is in searched_products_data.json. Use "search_products_list" json property to specify searched texts.
-The text are searched by **case-insensitive RegExp**. 
+The products are searched by **case-insensitive RegExp**. 
 
 ## Requirements
 - Operation System: Windows(Tested on Windows10)
