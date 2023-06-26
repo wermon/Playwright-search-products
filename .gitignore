@@ -4,4 +4,4 @@ node_modules/
 /playwright/.cache/
 /.vscode/
 /scripts/
-/tests-examples/git
+/tests-examples/
