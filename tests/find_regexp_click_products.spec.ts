@@ -1,6 +1,6 @@
 import { chromium, test} from '@playwright/test';
 import { repeat_action_till_time } from './../utils/utils'
-import productsData from './data/searched_products_data.json';
+import productsData from './../searched_products_data.json';
 
 let search_text_list: string[] = productsData.search_products_list;
 let all_products_xpath: string = "xpath=//div[@class='vvp-item-tile']//span[contains(@class,'a-truncate-full')]"
