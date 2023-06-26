@@ -4,8 +4,8 @@ Search config is in searched_products_data.json. Use "search_products_list" json
 The text are searched by **case-insensitive RegExp**. 
 
 ## Requirements
-- Windows(Tested on Windows10)
-- Install Chrome
+- Operation System: Windows(Tested on Windows10)
+- Google Chrome web browser
 - Install node.js recommended version: https://nodejs.org/en
 - Install Playwright and dependencies: run **install.bat** located in root folder
 
