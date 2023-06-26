@@ -17,7 +17,7 @@ During the first run.bat execution you should login manually to the site and the
 
 ## Configuration before run search:
 Open **searched_products_data.json** and check/change the following properties:
-- search_products_list: list of case-insensitive RegExp texts for products search
+- search_products_list: list of **case-insensitive RegExp** texts for products search
 - search_till_date: your **local date** till wanna run the search
 - repeat_interval_ms: interval of repeating of the search in *milliseconds*
 - products_page_url: page url(like "https://example.com/") where products are searched
