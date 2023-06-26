@@ -4,10 +4,9 @@ import productsData from './data/searched_products_data.json';
 
 let search_text_list: string[] = productsData.search_products_list;
 let all_products_xpath: string = "xpath=//div[@class='vvp-item-tile']//span[contains(@class,'a-truncate-full')]"
-let till: string = "2023-06-26T17:10";
 
 test('Find products and click it till date', async ({  }) => {
-  const context = await chromium.launchPersistentContext("C:\Users\Home\AppData\Local\Google\Chrome\User Data\Default");
+  const context = await chromium.launchPersistentContext("MyProfile");
   const page = await context.newPage();
   await page.goto(productsData.products_page_url);
   await repeat_action_till_time(async () => {
@@ -22,5 +21,7 @@ test('Find products and click it till date', async ({  }) => {
       }
       await product.locator("xpath=/../../../../span[contains(@class,'a-button')]").click();
     }
-  }, till, productsData.repeat_interval_ms);
+  }, 
+  productsData.search_till_date,
+  productsData.repeat_interval_ms);
 });
