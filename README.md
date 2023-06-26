@@ -12,7 +12,7 @@ The text are searched by **case-insensitive RegExp**.
 ## How to run the search:
 Run run.bat (double click or using Windows Command Prompt)
 
-### Manually login only for the first time run.bat execution:
+### Manually login to the site only for the first time run.bat execution:
 During the first run.bat execution you should login manually to the site and then the search script will be able **to keep login session for the all next run.bat executions**.
 
 ## Configuration before run search:
