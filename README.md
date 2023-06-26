@@ -16,7 +16,7 @@ Execute **run.bat** (double click or using Windows Command Prompt)
 During the first run.bat execution you should login manually to the site and then the search script will be able **to keep login session for the all next run.bat executions**.
 
 ## Configuration before run search:
-Open **searched_products_data.json** (*root folder*) and configure the following properties:
+Open **searched_products_data.json** and check/change the following properties:
 - search_products_list: list of case-insensitive RegExp texts for products search
 - search_till_date: your **local date** till wanna run the search
 - repeat_interval_ms: interval of repeating of the search in *milliseconds*
