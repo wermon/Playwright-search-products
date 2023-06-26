@@ -7,10 +7,13 @@ The text are searched by **case-insensitive RegExp**.
 - Windows(Tested on Windows10)
 - Install Chrome
 - Install node.js recommended version: https://nodejs.org/en
-- Install Playwright #TODO 
+- Install Playwright #TODO
 
 ## How to run the search:
 Run run.bat (double click or using Windows Command Prompt)
+
+### Manually login only for the first time run.bat exection:
+During the first run.bat execution you should login manually to the site and then the search script will be able **to keep login session for the all next run.bat executions**.
 
 ## Configuration before run search:
 Open searched_products_data.json and configure the following properties:
