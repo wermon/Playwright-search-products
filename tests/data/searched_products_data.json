@@ -1,0 +1,6 @@
+{
+    "search_products_list": ["First.*Red", "HAND"],
+    "search_till_date": "2023-06-26T17:10",
+    "repeat_interval_ms": 5000,
+    "products_page_url": "https://concept.droppages.com/"
+}
