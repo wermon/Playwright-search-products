@@ -7,12 +7,12 @@ The text are searched by **case-insensitive RegExp**.
 - Windows(Tested on Windows10)
 - Install Chrome
 - Install node.js recommended version: https://nodejs.org/en
-- Install Playwright #TODO
+- Install Playwright and dependencies: run **install.bat** located in root folder
 
 ## How to run the search:
-Run run.bat (double click or using Windows Command Prompt)
+Execute **run.bat** (double click or using Windows Command Prompt)
 
-### Manually login to the site only for the first time run.bat execution:
+### Login session automatically is preserved for the next time: Manually login to the site only for the first time run.bat execution:
 During the first run.bat execution you should login manually to the site and then the search script will be able **to keep login session for the all next run.bat executions**.
 
 ## Configuration before run search:
