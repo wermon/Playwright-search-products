@@ -17,4 +17,4 @@ Open searched_products_data.json and configure the following properties:
 - search_products_list: list of case-insensitive RegExp texts for products search
 - search_till_date: your **local date** till wanna run the search
 - repeat_interval_ms: interval of repeating of the search in *milliseconds*
-- products_page_url: page url when products are searched like "https://example.com/"
+- products_page_url: page url(like "https://example.com/") when products are searched
