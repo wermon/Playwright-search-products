@@ -7,7 +7,7 @@ The text are searched by **case-insensitive RegExp**.
 - Operation System: Windows(Tested on Windows10)
 - Google Chrome web browser
 - Install node.js recommended version: https://nodejs.org/en
-- Install Playwright and dependencies: run **install.bat** located in root folder
+- Install Playwright and dependencies: run **install.bat** that located in root folder
 
 ## How to run the search:
 Execute **run.bat** (double click or using Windows Command Prompt)
